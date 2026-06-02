@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículo – Renan Vitor da Silva Lima</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="page">
+    <div class="toolbar">
+      <div class="tabs" role="tablist" aria-label="Escolha a versão do currículo">
+        <button class="btn" id="tab-admin" aria-selected="false">Versão Administrativa</button>
+        <button class="btn active" id="tab-ti" aria-selected="true">Versão TI</button>
+      </div>
+      <div class="actions">
+        <button class="btn secondary" id="print">Exportar PDF</button>
+      </div>
+    </div>
+
+    <div class="resume card" id="resume">
+      <aside class="left">
+        <div class="header">
+         <img class="avatar" src="file:\\\C:\Users\ADM\Documents\docts\Development\Curriculum GITHUB\assets\IMG-20250819-WA0005[1].jpg" alt="Foto de Renan Vitor da Silva Lima"/>
+          <div>
+            <h1 id="nome">Renan Vitor da Silva Lima</h1>
+            <div class="role" id="headline">Estudante de Ciência da Computação • Foco em TI e Segurança</div>
+          </div>
+        </div>
+
+        <div class="section contact">
+          <h2>Contato</h2>
+          <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4h16v16H4z" opacity=".08"/><path d="M4 4h16v4H4z"/><path d="M6 8v12M18 8v12" opacity=".4"/></svg><a href="mailto:vitorstrg2004@gmail.com">vitorstrg2004@gmail.com</a></div>
+          <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.12a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92z"/></svg> (11) 97832-2035</div>
+          <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 8a6 6 0 1 1-8 0"/><path d="M12 2v4M2 12h4M18 12h4M12 18v4"/></svg><a href="https://www.linkedin.com/in/renanvitor007/" target="_blank">LinkedIn</a></div>
+          <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg><a href="https://github.com/dev-renanvt" target="_blank">GitHub</a></div>
+          <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> São Paulo – SP</div>
+        </div>
+
+        <div class="section" id="skills">
+          <h2>Habilidades</h2>
+          <div id="chips" aria-live="polite"></div>
+        </div>
+
+        <div class="section" id="extras-container">
+          <h2>Cursos & Extras</h2>
+          <div id="extras"></div>
+        </div>
+      </aside>
+
+      <main class="right">
+        <section class="section">
+          <h2>Resumo</h2>
+          <p id="resumo"></p>
+        </section>
+
+        <section class="section">
+          <h2>Experiência</h2>
+          <div class="item">
+            <div class="top"><div class="where" id="exp1-role">Analista de Prevenção à Fraude Jr • HS Prevent</div><div class="when">03/2024 – 12/2025 </div></div>
+            <ul id="exp1-bullets"></ul>
+          </div>
+          <div class="item">
+            <div class="top"><div class="where">Auxiliar Administrativo (Jovem Aprendiz) • TFP</div><div class="when">03/2023 – 02/2024</div></div>
+            <ul>
+              <li>Organização de processos internos e documentação.</li>
+              <li>Apoio à gestão de pessoas e rotinas de escritório.</li>
+              <li>Trabalho em equipe visando eficiência operacional.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Formação</h2>
+          <div class="item">
+            <div class="top"><div class="where">Bacharelado em Ciência da Computação • UNICID</div><div class="when">02/2025–Presente</div></div>
+            <div class="muted">Previsão de conclusão: 2028</div>
+          </div>
+          <div class="item">
+            <div class="top"><div class="where">Capacitação Profissional • UNIBES</div><div class="when">06/2022–02/2024</div></div>
+          </div>
+        </section>
+
+        <section class="section" id="projetos-container">
+          <h2>Projetos</h2>
+          <div id="projetos"></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
